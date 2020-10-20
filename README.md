@@ -7,6 +7,7 @@ SharePoint Online
   
 Nintex (for Office 365)
   - Find All Nintex Forms
+  - Check For Workflows
 
 
 ** Feel free to take/use - and edit as needed
