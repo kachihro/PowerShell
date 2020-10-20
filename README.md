@@ -1,6 +1,7 @@
 # PowerShell Commands
 
 SharePoint Online
+  - Find Custom Apps
   - Find Sites With External Sharing
   - Hide Flow And PowerApps
   - Set Site Collection ReadOnly
