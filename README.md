@@ -3,8 +3,9 @@
 SharePoint Online
   - Find Sites With External Sharing
   - Hide Flow And PowerApps
+  - Set Site Collection ReadOnly
   
-Nintex 
+Nintex (for Office 365)
   - Find All Nintex Forms
 
 
