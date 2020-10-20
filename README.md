@@ -5,6 +5,7 @@ SharePoint Online
   - Check Site Sizes
   - Find Custom Apps
   - Find Sites With External Sharing
+  - Fix Locale And Date Format (wrong date, from US-only MM/DD/YYYY - to global DD/MM/YYYY)
   - Hide Flow And PowerApps
   - Set Site Collection ReadOnly
   
