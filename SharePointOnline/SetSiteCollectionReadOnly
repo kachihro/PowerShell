@@ -1,0 +1,29 @@
+# ==========================
+# CONFIGURE
+$listOfSiteCollections = "C:\Temp\LIST-OF-SITES.txt"
+# ==========================
+
+function Set-SiteCollectionReadOnly([String]$siteURL)
+{
+    Write-host -f Yellow "Set Site to ReadOnly: "$siteURL
+
+    try{
+        Connect-PnPOnline -Url $siteUrl -UseWebLogin
+        Set-PnPSite -LockState ReadOnly
+    }
+    catch {
+        $_.Exception
+        write-host -f Red "Error Setting Site Collection ReadOnly : " $_.Exception.Message
+    }
+
+}
+
+#Call the function
+$siteCollections = Get-Content $listOfSiteCollections
+
+foreach ($siteURL in $siteCollections){
+    if ($siteURL -ne "") 
+    {
+        Set-SiteCollectionReadOnly $siteURL
+    }
+}
