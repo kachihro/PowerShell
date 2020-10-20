@@ -2,6 +2,7 @@
 
 SharePoint Online
   - Find Sites With External Sharing
+  - Hide Flow And PowerApps
   
 Nintex 
   - Find All Nintex Forms
