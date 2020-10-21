@@ -3,6 +3,7 @@
 SharePoint Online
   - Check For Checked Out Files
   - Check Site Sizes
+  - Disallow GuestAccess For Groups - can't add GUESTS for an O365 Group - import file with groupemail@tenant.onmicrosoft.com
   - Find Custom Apps
   - Find Sites With External Sharing
   - Fix Locale And Date Format (wrong date, from US-only MM/DD/YYYY - to global DD/MM/YYYY)
