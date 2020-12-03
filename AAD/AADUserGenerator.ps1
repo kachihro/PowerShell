@@ -3,9 +3,10 @@
 
 $importFile = "C:\Temp\userlist.csv"
 
-#Get User Inputs for Domain, City, Country, Company and Department. The inputs will be the same for all users.
-$domain = "tenant.onmicrosoft.com"
-$city = "Melbourne"
+# set values for Domain, City, Company 
+# department and office will be different - with the usernames
+$domain = "tenant.onmicrosoft.com"      # *** CHANGE HERE
+$city = "Melbourne"                     
 $company = "Hyper Mega Global Enterprises .NET"
 
 Connect-AzureAD 
