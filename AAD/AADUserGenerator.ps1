@@ -1,3 +1,6 @@
+# used this script as a basis - thanks JUDE_PERERA
+# https://gallery.technet.microsoft.com/scriptcenter/Dummy-Active-Directory-46883818
+
 $importFile = "C:\Temp\userlist.csv"
 
 #Get User Inputs for Domain, City, Country, Company and Department. The inputs will be the same for all users.
